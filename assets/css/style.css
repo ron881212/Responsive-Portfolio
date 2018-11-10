@@ -217,6 +217,7 @@ h5 {
 }
 
 .portScreenshot {
+    position: relative;
     margin: 1em 0em 1em 3em;
 
 }
@@ -392,17 +393,37 @@ h5 {
 
     #about,
     #portfolio,
-    #contact,
+    #contacts,
     li a {
         background-color: #ffffff;
         color: inherit;
         padding: 20px;
     }
 
+    form {
+        position: relative;
+    }
+
     button {
-        width: 35%;
-        float: left;
+        /* position: absolute; */
+        width: 30%;
+        /* float: left; */
+        display: inline;
+        margin-right: 400px;
     }
     
+    .conContent {
+        margin-bottom: 50px;
+    }
+
+    .text01 {
+        margin-top: -57%;
+        right: 24%;
+    }
+
+    .text02 {
+        margin-top: -57%;
+        left: 24%;
+    }
 }
 
