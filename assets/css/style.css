@@ -287,6 +287,24 @@ h5 {
     margin-bottom: 30px;
 }
 
+.banner {
+    position: relative;
+    display: inline;
+}
+
+.text {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: #4aaaa5;
+    text-align: center;
+}
 
 @media only screen and (max-width: 980px) {
     li {
