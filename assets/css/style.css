@@ -22,7 +22,7 @@ ul {
 li {
     position: relative;
     float: right;
-    right: 230px;
+    right: 20%;
     align-content: center;
     margin-left: 1em;
     color: #777777;
@@ -54,7 +54,7 @@ h1 {
     padding: 22px;
     height: 32px;
     top: 0;
-    left: 230px;
+    left: 16%;
     margin: 0;
     overflow: hidden;
     z-index: 3;
@@ -125,8 +125,8 @@ button {
 
 .content {
     position: relative;
-    margin-top: 30px;
-    margin-left: 230px;
+    /* margin-top: 30%; */
+    margin: 0 auto;
     width: 960px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
@@ -135,19 +135,17 @@ button {
 .conContent {
     position: relative;
     margin-top: 30px;
-    margin-left: 230px;
+    /* margin-left: 230px; */
     margin-bottom: 50px;
     width: 960px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .portContent {
     position: relative;
-    margin-top: 30px;
-    margin-left: 230px;
-    margin-bottom: 50px;
+    margin: 0 auto;
     width: 960px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
@@ -178,7 +176,7 @@ footer {
     text-align: center;
     border-top: 8px solid #4aaaa5;
     color: white;
-    margin: 0;
+    margin-top: 15px;
 }
 
 #portFooter {
@@ -189,7 +187,7 @@ footer {
     text-align: center;
     border-top: 8px solid #4aaaa5;
     color: white;
-    margin: 0 auto;
+    margin-top: 15px;
 }
 
 h5 {
@@ -284,4 +282,87 @@ h5 {
     color: #ffffff;
 }
 
+.navbar {
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 980px) {
+    li {
+        right: 5%;
+    }
+    h1 {
+        left: 5%;
+    }
+    .content,
+    .conContent {
+        width: 70%;
+        margin-right: 25%;
+        margin-bottom: 10%;
+    }
+
+    .portContent {
+        width: 668px;
+        margin-left: 5%;
+        margin-right: 25%;
+    }
+
+    .portScreenshot {
+        margin: 1em 0em 1em 1em;
+    }
+    .text01 {
+        margin-left: 16px;
+    }
+    .text02 {
+        margin-left: 50.4%;
+        
+    }
+    .text03 {
+        margin-left: 16px;
+    }
+    .text04 {
+        margin-left: 50.4%;
+        
+    }
+    .text05 {
+        margin-left: 16px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px) {
+    .conContent,
+    .content {
+        width: 668px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+    .portContent {
+        
+    }
+}
+@media only screen and (max-width: 640px) {
+    .content,
+    .conContent,
+    .portContent {
+        width: 100%;
+    }
+    
+    h1 {
+        float: none;
+        position: static;
+        top: -75px;
+        /* display: none; */
+    }
+
+    .navbar {
+        /* margin-top: ; */
+    }
+
+    li a:hover {
+        
+    }
+    
+}
 
