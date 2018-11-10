@@ -230,59 +230,6 @@ h5 {
     height: 60px;
 }
 
-.text01 {
-    position: absolute;
-    margin-top: -110px;
-    margin-left: 48px;
-    background-color: #4aaaa5;
-    width: 240px;
-    padding: 30px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.text02 {
-    position: absolute;
-    margin-top: -110px;
-    margin-left: 400px;
-    background-color: #4aaaa5;
-    width: 240px;
-    padding: 30px;
-    text-align: center;
-    color: #ffffff;
-}
-.text03 {
-    position: absolute;
-    margin-top: -110px;
-    margin-left: 48px;
-    background-color: #4aaaa5;
-    width: 240px;
-    padding: 30px;
-    text-align: center;
-    color: #ffffff;
-}
-
-.text04 {
-    position: absolute;
-    margin-top: -110px;
-    margin-left: 400px;
-    background-color: #4aaaa5;
-    width: 240px;
-    padding: 30px;
-    text-align: center;
-    color: #ffffff;
-}
-.text05 {
-    position: absolute;
-    margin-top: -110px;
-    margin-left: 48px;
-    background-color: #4aaaa5;
-    width: 240px;
-    padding: 30px;
-    text-align: center;
-    color: #ffffff;
-}
-
 .navbar {
     margin-bottom: 30px;
 }
@@ -296,11 +243,25 @@ h5 {
     position: absolute;
     margin: 0;
     bottom: 0;
-    left: 50%;
+    left: 56.1%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    width: 100%;
-    padding: 5px;
+    width: 300px;
+    padding: 0px;
+    color: whitesmoke;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+.textrps {
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    left: 56.9%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 0px;
     color: whitesmoke;
     background-color: #4aaaa5;
     text-align: center;
@@ -329,26 +290,12 @@ h5 {
     .portScreenshot {
         margin: 1em 0em 1em 1em;
     }
-    .text01 {
-        margin-left: 16px;
-    }
-    .text02 {
-        margin-left: 50.4%;
-        
-    }
-    .text03 {
-        margin-left: 16px;
-    }
-    .text04 {
-        margin-left: 50.4%;
-        
-    }
-    .text05 {
-        margin-left: 16px;
-    }
     
-    button {
-        width: 35%;
+    .text {
+        left: 51.8%;
+    }
+    .textrps {
+        left: 52.5%;
     }
 
 }
@@ -434,14 +381,16 @@ h5 {
         margin-bottom: 50px;
     }
 
-    .text01 {
-        margin-top: -57%;
-        right: 24%;
+    h2 {
+       text-align: left;
     }
 
-    .text02 {
-        margin-top: -57%;
-        left: 24%;
+    li {
+        border-right: 1px solid #dddddd;
+    }
+
+    li:last-child {
+        border-right: none;
     }
 }
 
