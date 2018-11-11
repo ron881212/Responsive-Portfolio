@@ -176,7 +176,7 @@ footer {
     text-align: center;
     border-top: 8px solid #4aaaa5;
     color: white;
-    margin-top: 15px;
+    margin-top: 150px;
 }
 
 #portFooter {
@@ -297,7 +297,8 @@ h5 {
     .textrps {
         left: 52.5%;
     }
-
+    
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -316,6 +317,7 @@ h5 {
     button {
         width: 35%;
     }
+
 
 }
 @media only screen and (max-width: 640px) {
@@ -392,5 +394,7 @@ h5 {
     li:last-child {
         border-right: none;
     }
+
+    
 }
 
